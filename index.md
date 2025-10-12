@@ -10,9 +10,8 @@ I explore on **end-to-end governance systems** for AI platforms: risk taxonomy &
 5. **Compliance & Transparency** — DPIA, decision traceability, transparency reporting.
 
 ## Repos
-- [platform-governance-standards](https://github.com/<username>/platform-governance-standards)
-- [aigc-safety-eval-bench](https://github.com/<username>/aigc-safety-eval-bench)
-- [governance-engineering-playbook](https://github.com/<username>/governance-engineering-playbook)
+- [differential-privacy-GNN](https://github.com/anthony1235fu/Differential_Privacy_GNN)
+- [leading-opinion-crises-selection](https://github.com/anthony1235fu/Opinion-Events-Selector)
 
 ## Contact
 fucx9501@outlook.com · Twitter/X · LinkedIn  
