@@ -14,6 +14,6 @@ I explore on **end-to-end governance systems** for AI platforms: risk taxonomy &
 - [leading-opinion-crises-selection](https://github.com/anthony1235fu/Opinion-Events-Selector)
 
 ## Contact
-fucx9501@outlook.com · Twitter/X · [LinkedIn](https://www.linkedin.com/in/cexu_fu)
+fucx9501@outlook.com · Twitter/X · [LinkedIn](https://www.linkedin.com/in/cexu_fu)  
 **Open to PhD supervision & research collaborations.**
 
