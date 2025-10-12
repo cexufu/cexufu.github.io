@@ -1,6 +1,6 @@
 # AI & Platform Governance — Cexu (Tony) Fu
 
-I build **end-to-end governance systems** for AI platforms: risk taxonomy & standards → policy & workflows → evaluation & auditability.
+I explore on **end-to-end governance systems** for AI platforms: risk taxonomy & standards → policy & workflows → evaluation & auditability.
 
 ## Pillars
 1. **Standards & Risk Taxonomy** — multi-layer standards (human/account/content/agents) with graded harms & exemptions.
@@ -15,6 +15,6 @@ I build **end-to-end governance systems** for AI platforms: risk taxonomy & stan
 - [governance-engineering-playbook](https://github.com/<username>/governance-engineering-playbook)
 
 ## Contact
-yourname [at] gmail.com · Twitter/X · LinkedIn  
+fucx9501@outlook.com · Twitter/X · LinkedIn  
 **Open to PhD supervision & research collaborations.**
 
