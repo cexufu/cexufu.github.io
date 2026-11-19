@@ -9,11 +9,11 @@ last_name: Fu
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD researcher in the EPSRC Centre for Doctoral Training in Cyber Security at the University of Bristol, working on LLM internals, attribution and AI safety.
+  AI governance, grounded in mechanisms. PhD researcher in the EPSRC Centre for Doctoral Training in Cyber Security, University of Bristol.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: mechanistic interpretability, attribution, LLM, AI safety, AI governance, information flow # add your own keywords or leave empty
+keywords: AI governance, mechanistic interpretability, attribution, information flow, AI safety, LLM # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔎 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -135,8 +135,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Tracing # blog_name will be displayed in your blog page
-blog_description: Notes on LLM internals, interpretability evaluation, and AI safety governance
+blog_name: Mechanistic Governance # blog_name will be displayed in your blog page
+blog_description: Source- and code-level answers to real AI governance problems
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -337,7 +337,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["interpretability", "attribution", "evaluation", "governance"] # these tags will be displayed on the front page of your blog
+display_tags: ["governance", "interpretability", "attribution", "evaluation"] # these tags will be displayed on the front page of your blog
 display_categories: ["foundations", "methods", "paper-notes", "policy-review"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

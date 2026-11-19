@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Launched this site and [Tracing](/blog/), a blog on LLM internals, interpretability evaluation and AI safety governance.
+Launched this site and [Mechanistic Governance](/blog/), a blog on source- and code-level answers to real AI governance problems.

@@ -1,10 +1,10 @@
 cv:
   name: Cexu (Tony) Fu
-  label: PhD Researcher, Cyber Security
+  label: AI Governance Researcher (mechanistic interpretability)
   email: fucx9501@outlook.com
   location: Bristol, UK
   image: ""
-  summary: PhD researcher working on LLM internals, attribution and AI safety, with several years of industry experience in AIGC content safety, platform governance and risk measurement.
+  summary: Works on AI governance from the inside of the model, using source- and code-level evidence (information flow, attribution and interventions in LLMs) to answer real governance problems. Several years of industry experience in AIGC content safety, platform governance and risk measurement.
 
   social_networks:
     - network: GitHub
@@ -48,14 +48,6 @@ cv:
         end_date: 2017
 
     Experience:
-      - company: Du Xiaoman Financial
-        position: Public Opinion Lead; AI Automation Lead for PR, Marketing and Brand
-        location: China
-        start_date: 2025-12
-        end_date: 2026
-        highlights:
-          - "Designed a 'one brain, multiple agents' architecture and delivered 10+ LLM skills, including content-safety checks and public-opinion response."
-
       - company: ByteDance / Douyin
         position: AIGC Standards, Safety and AI Governance Specialist
         location: Beijing, China

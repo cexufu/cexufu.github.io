@@ -2,14 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD researcher · EPSRC Centre for Doctoral Training in Cyber Security · <a href="https://www.bristol.ac.uk/">University of Bristol</a>
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Bristol, UK</p>
+subtitle: AI governance, grounded in mechanisms · PhD researcher, EPSRC Centre for Doctoral Training in Cyber Security, <a href="https://www.bristol.ac.uk/">University of Bristol</a>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,12 +18,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm Cexu (Tony) Fu, a PhD researcher in the EPSRC Centre for Doctoral Training in Cyber Security at the University of Bristol.
+I'm Cexu (Tony) Fu. I work on **AI governance from the inside of the model**.
 
-I study how information flows through the internals of large language models: which parts of an input actually drive a given output, how to tell a faithful explanation from a plausible one, and how this kind of tracing can help detect sensitive information leaking out of AI systems.
+Many governance questions are, underneath, questions about mechanisms: where did this output come from, did sensitive information leak, does a safety rule actually change what the system does? I try to answer them with **source-level and code-level evidence**: tracing how information flows through LLM internals, attributing outputs to the inputs that drive them, and testing those attributions with interventions rather than relying on a model's own account of itself.
 
-Before the PhD I spent several years on the operational side of AI and platform safety. At ByteDance/Douyin I worked on content-safety standards for AIGC, multimodal content and AI-agent products; at Tencent I built quantitative measures of public-opinion risk, information cocoons and AIGC prevalence; at Kuaishou I worked on content policy, risk and data governance. I also hold an MSc in Knowledge, Information and Data Science from UCL.
+This focus comes from several years on the operational side of platform and AI safety:
 
-That background shapes the questions I care about: what can we actually verify about a model's behaviour, and what does that mean for the people who have to govern it?
+- **ByteDance / Douyin**: content-safety standards for AIGC, multimodal content and AI-agent products.
+- **Tencent**: quantitative measures of information cocoons, polarisation and AIGC prevalence, and semi-automated data-protection impact assessments.
+- **Kuaishou**: content policy, risk and data governance, privacy and crisis response.
 
-**On this site:** [Tracing](/blog/), a blog on LLM internals, interpretability evaluation and AI safety governance, plus my [CV](/cv/).
+I'm now a PhD researcher in the EPSRC Centre for Doctoral Training in Cyber Security at the University of Bristol, after an MSc in Knowledge, Information and Data Science at UCL.
+
+I write about this at [Mechanistic Governance](/blog/), and my CV is [here](/cv/).
