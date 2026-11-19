@@ -1,0 +1,12 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+
+email: fucx9501@outlook.com # your email address
+github_username: cexufu # your GitHub user name
+linkedin_username: cexu_fu # your LinkedIn user name
+# orcid_id: # your ORCID ID, e.g. 0000-0000-0000-0000
+# scholar_userid: # your Google Scholar ID (the "user=" part of your profile URL)
+# x_username: # your X (Twitter) handle
+# bluesky_url: # your full Bluesky profile URL
+rss_icon: true # comment this line to hide the RSS icon
