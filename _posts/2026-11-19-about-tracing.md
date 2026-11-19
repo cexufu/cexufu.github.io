@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What this blog is for
-date: 2026-11-19 12:00:00+0000
+date: 2026-11-19 09:00:00+0000
 description: Why I'm writing about LLM internals and AI governance in the same place.
 tags: interpretability governance
 categories: foundations
