@@ -34,14 +34,17 @@ body_class: page-home
   <h2 id="research-h">Questions I work on</h2>
   <div class="questions">
     <article class="question">
+      <div class="fig-frame">{% include fig-attribution.html %}</div>
       <h3>Where did this output come from?</h3>
       <p>Attributing generated text to the source passages and internal computations that produced it, and checking each attribution with ablations rather than taking a score at face value.</p>
     </article>
     <article class="question">
+      <div class="fig-frame">{% include fig-leak.html %}</div>
       <h3>Did confidential input leak?</h3>
       <p>Following sensitive content as it moves through a model or an agent, so leakage can be detected from the mechanism and not only from the final text.</p>
     </article>
     <article class="question">
+      <div class="fig-frame">{% include fig-verify.html %}</div>
       <h3>Can this claim about a model be verified?</h3>
       <p>Turning governance requirements, such as labelling, review and data-protection rules, into tests with an explicit standard of evidence.</p>
     </article>

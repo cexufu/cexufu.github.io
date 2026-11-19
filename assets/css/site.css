@@ -326,6 +326,112 @@ p {
   gap: 2.75rem;
 }
 
+.fig-frame {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  padding: 0.9rem 0.9rem 0.6rem;
+  margin-bottom: 1.4rem;
+}
+
+.fig {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fig .edge,
+.fig .base,
+.fig .divider {
+  stroke: var(--rule);
+  stroke-width: 1;
+}
+
+.fig .hot {
+  stroke: var(--trace);
+  stroke-linecap: round;
+}
+
+.fig .node,
+.fig .grid circle {
+  fill: var(--panel);
+  stroke: var(--muted);
+  stroke-width: 1.2;
+}
+
+.fig .node-hot {
+  fill: var(--trace);
+  stroke: var(--trace);
+}
+
+.fig .tok,
+.fig .frame,
+.fig .lock {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 1.2;
+}
+
+.fig .tok-hot {
+  fill: var(--trace);
+  stroke: var(--trace);
+}
+
+.fig .tok-out {
+  fill: var(--trace);
+  stroke: var(--trace);
+}
+
+.fig .tok-gone {
+  stroke-dasharray: 3 3;
+}
+
+.fig .cross {
+  stroke: var(--muted);
+  stroke-width: 1.4;
+}
+
+.fig .lock-arc {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 1.6;
+}
+
+.fig .txt {
+  stroke: var(--rule);
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.fig .txt-hot {
+  stroke: var(--trace);
+}
+
+.fig .taint {
+  fill: none;
+  stroke: var(--trace);
+  stroke-width: 2;
+  stroke-dasharray: 5 4;
+  stroke-linecap: round;
+}
+
+.fig .bar {
+  fill: var(--trace);
+}
+
+.fig .ghost {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 1;
+  stroke-dasharray: 3 3;
+}
+
+.fig text {
+  font-family: var(--sans);
+  font-size: 11px;
+  fill: var(--muted);
+}
+
 .question h3 {
   font-size: 1.35rem;
   line-height: 1.25;
