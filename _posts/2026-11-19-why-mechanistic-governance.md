@@ -8,7 +8,7 @@ categories: foundations
 related_posts: false
 ---
 
-Most AI governance work happens at the level of rules: what a platform allows, what a regulator requires, what a review standard says. I spent several years writing and applying rules like these for AIGC and AI-agent products. Many of the hardest questions in that work were not really about rules, though. They were about mechanisms.
+Most AI governance work happens at the level of rules: what a platform allows, what a regulator requires, what a review standard says. I spent several years writing and applying rules like these, most recently for AIGC and AI-agent products. Many of the hardest questions in that work were not really about rules, though. They were about mechanisms.
 
 Where did this generated claim come from? Did confidential input end up in the output? When a safety instruction is added, does the model's behaviour actually change, or only its wording? These are governance questions, but the evidence that answers them lives inside the model and inside the code that runs it.
 
