@@ -1,0 +1,16 @@
+name: Check site build
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build with the GitHub Pages Jekyll engine
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site

@@ -4,8 +4,6 @@ title: Why mechanistic governance
 date: 2026-11-19 09:00:00+0000
 description: Governance questions that can only be answered from inside the model.
 tags: governance interpretability
-categories: foundations
-related_posts: false
 ---
 
 Most AI governance work happens at the level of rules: what a platform allows, what a regulator requires, what a review standard says. I spent several years writing and applying rules like these, most recently for AIGC and AI-agent products. Many of the hardest questions in that work were not really about rules, though. They were about mechanisms.
