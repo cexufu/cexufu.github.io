@@ -1,112 +1,154 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cexu Fu | AI Communication & Governance</title>
-    <meta name="description" content="AI product builder focused on communication intelligence, public-opinion analysis, career diagnosis, and platform governance.">
-    <meta property="og:title" content="Cexu Fu | AI Communication & Governance">
-    <meta property="og:description" content="Practical AI tools for communication teams, creators, researchers, and career decision-makers.">
-    <meta property="og:image" content="https://github.com/cexufu.png">
-    <meta name="theme-color" content="#111827">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Cexu Fu home">
-        <img src="https://github.com/cexufu.png" alt="Cexu Fu avatar">
-        <span>Cexu Fu</span>
-      </a>
-      <nav aria-label="Primary navigation">
-        <a href="#projects">Projects</a>
-        <a href="#focus">Focus</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+---
+layout: default
+title: Cexu (Tony) Fu
+description: AI governance, grounded in mechanisms. PhD researcher in the EPSRC Centre for Doctoral Training in Cyber Security, University of Bristol.
+body_class: page-home
+---
+<section class="wrap hero">
+  <div class="hero-text">
+    <h1>AI governance, grounded in mechanisms.</h1>
+    <p class="lede">I'm Cexu (Tony) Fu. I answer governance questions with evidence from inside the model: tracing how information flows through it, attributing outputs to the inputs that drive them, and testing those attributions by intervention.</p>
+    <p class="hero-meta">PhD researcher in the EPSRC Centre for Doctoral Training in Cyber Security, University of Bristol. Before that, content safety and platform governance at ByteDance/Douyin, Tencent and Kuaishou.</p>
+    <ul class="hero-links">
+      <li><a href="https://github.com/{{ site.github }}">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a></li>
+      <li><a href="mailto:{{ site.email }}">Email</a></li>
+      <li><a href="{{ '/notes/' | relative_url }}">Notes</a></li>
+    </ul>
+  </div>
 
-    <main id="top">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">AI Communication · Public Opinion · Platform Governance</p>
-          <h1>Building AI tools that turn noisy information into usable decisions.</h1>
-          <p class="lead">I design practical AI systems for communication strategy, content simulation, public-opinion analysis, career diagnosis, and governance workflows.</p>
-          <div class="actions">
-            <a class="button primary" href="https://github.com/cexufu">View GitHub</a>
-            <a class="button secondary" href="mailto:fucx9501@outlook.com">Contact Me</a>
-          </div>
-        </div>
-        <aside class="profile-panel" aria-label="Profile summary">
-          <img class="avatar" src="https://github.com/cexufu.png" alt="Portrait of Cexu Fu">
-          <div>
-            <h2>Cexu Fu</h2>
-            <p>AI product builder with a focus on communication intelligence, public-opinion systems, and platform governance.</p>
-          </div>
-        </aside>
-      </section>
+  <figure class="trace" aria-labelledby="trace-caption">
+    <div class="trace-block">
+      <p class="trace-label">Source</p>
+      <p class="trace-source" id="trace-source"><span>Synthetic</span> <span>media</span> <span>must</span> <span>carry</span> <span>a</span> <span>visible</span> <span>label.</span> <span>Labels</span> <span>may</span> <span>be</span> <span>removed</span> <span>only</span> <span>after</span> <span>human</span> <span>review.</span> <span>Accounts</span> <span>that</span> <span>repeatedly</span> <span>strip</span> <span>labels</span> <span>lose</span> <span>distribution.</span></p>
+    </div>
+    <div class="trace-block trace-out">
+      <p class="trace-label">Summary</p>
+      <p class="trace-output" id="trace-output"><button type="button" data-w="18:1,10:.6,17:.35">Stripping</button> <button type="button" data-w="0:1,1:.6">AI</button> <button type="button" data-w="19:.85,7:.7,6:.6,5:.3">labels</button> <button type="button" data-w="11:.85,12:.6">without</button> <button type="button" data-w="14:1,13:.65">review</button> <button type="button" data-w="20:1,21:.4">reduces</button> <button type="button" data-w="15:1,16:.25">an account's</button> <button type="button" data-w="21:1,20:.45">reach.</button></p>
+    </div>
+    <figcaption id="trace-caption">Pick a word in the summary to see which parts of the source it depends on. This is an illustration with hand-set weights, not real model output.</figcaption>
+  </figure>
+</section>
 
-      <section class="section" id="projects">
-        <div class="section-heading">
-          <p class="eyebrow">Featured Work</p>
-          <h2>Projects with a clear use case</h2>
-        </div>
-        <div class="project-grid">
-          <article class="project-card featured">
-            <p class="tag">Web beta</p>
-            <h3>Easy Comm</h3>
-            <p>Chinese AI PR workspace for founders, brand teams, and content operators: hotspot selection, audience analysis, public-opinion framing, and content planning.</p>
-            <a href="https://github.com/cexufu/easy-Comm">Open project</a>
-          </article>
-          <article class="project-card">
-            <p class="tag">Deployable app</p>
-            <h3>Content Simulator</h3>
-            <p>A style-learning tool for creators to collect source drafts, confirm style, reframe weak content, and deliver finished copy.</p>
-            <a href="https://github.com/cexufu/content_simulator">Open project</a>
-          </article>
-          <article class="project-card">
-            <p class="tag">MVP</p>
-            <h3>Resume Assessor</h3>
-            <p>AI career diagnosis that evaluates resume evidence, ability signals, career direction, study planning, and follow-up questions.</p>
-            <a href="https://github.com/cexufu/resume_assessor">Open project</a>
-          </article>
-          <article class="project-card">
-            <p class="tag">Prototype</p>
-            <h3>Hot Topic Selector</h3>
-            <p>Matches public hotspots with brand relevance, execution angles, and communication risk for PR and marketing teams.</p>
-            <a href="https://github.com/cexufu/hot_topic_selector">Open project</a>
-          </article>
-        </div>
-      </section>
+<section class="wrap band" id="research" aria-labelledby="research-h">
+  <h2 id="research-h">Questions I work on</h2>
+  <div class="questions">
+    <article class="question">
+      <div class="fig-frame">{% include fig-attribution.html %}</div>
+      <h3>Where did this output come from?</h3>
+      <p>Attributing generated text to the source passages and internal computations that produced it, and checking each attribution with ablations rather than taking a score at face value.</p>
+    </article>
+    <article class="question">
+      <div class="fig-frame">{% include fig-leak.html %}</div>
+      <h3>Did confidential input leak?</h3>
+      <p>Following sensitive content as it moves through a model or an agent, so leakage can be detected from the mechanism and not only from the final text.</p>
+    </article>
+    <article class="question">
+      <div class="fig-frame">{% include fig-verify.html %}</div>
+      <h3>Can this claim about a model be verified?</h3>
+      <p>Turning governance requirements, such as labelling, review and data-protection rules, into tests with an explicit standard of evidence.</p>
+    </article>
+  </div>
+</section>
 
-      <section class="split-section" id="focus">
-        <div>
-          <p class="eyebrow">Current Focus</p>
-          <h2>Making AI outputs easier to trust, inspect, and act on.</h2>
-        </div>
-        <div class="focus-list">
-          <div>
-            <h3>Communication Intelligence</h3>
-            <p>Topic selection, audience analysis, content planning, and campaign reasoning for small teams.</p>
-          </div>
-          <div>
-            <h3>Public-Opinion Analysis</h3>
-            <p>Event selection, stakeholder mapping, risk staging, and narrative competition analysis.</p>
-          </div>
-          <div>
-            <h3>Governance Systems</h3>
-            <p>Risk taxonomy, review workflows, evaluation rubrics, auditability, and transparency thinking.</p>
-          </div>
-        </div>
-      </section>
+<section class="wrap band" id="experience" aria-labelledby="experience-h">
+  <h2 id="experience-h">Experience</h2>
+  <ol class="timeline">
+    <li>
+      <p class="when">2025</p>
+      <div>
+        <h3>ByteDance / Douyin</h3>
+        <p class="role">AIGC standards, safety and AI governance</p>
+        <p>Content-safety standards for AIGC, multimodal content and AI-agent products, including AI avatar and AI companion scenarios, evaluated through violation-rate and review-accuracy monitoring.</p>
+      </div>
+    </li>
+    <li>
+      <p class="when">2024 to 2025</p>
+      <div>
+        <h3>Tencent</h3>
+        <p class="role">Public-opinion quantitative research</p>
+        <p>Measures of information cocoons, polarisation and AIGC prevalence, and semi-automated data-protection impact assessments.</p>
+      </div>
+    </li>
+    <li>
+      <p class="when">2020 to 2023</p>
+      <div>
+        <h3>Kuaishou</h3>
+        <p class="role">Data governance, risk analysis and platform governance</p>
+        <p>Content policy, risk and data governance, privacy protection and crisis response, including more than 100 risk-assessment projects.</p>
+      </div>
+    </li>
+  </ol>
 
-      <section class="contact" id="contact">
-        <p class="eyebrow">Collaboration</p>
-        <h2>Open to research collaboration, product work, and early users.</h2>
-        <div class="contact-links">
-          <a href="mailto:fucx9501@outlook.com">fucx9501@outlook.com</a>
-          <a href="https://github.com/cexufu">GitHub</a>
-          <a href="https://www.linkedin.com/in/cexu_fu">LinkedIn</a>
-        </div>
-      </section>
-    </main>
-  </body>
-</html>
+  <h2 class="sub-h">Education</h2>
+  <ol class="timeline">
+    <li>
+      <p class="when">2026 to now</p>
+      <div>
+        <h3>University of Bristol</h3>
+        <p class="role">PhD, EPSRC Centre for Doctoral Training in Cyber Security</p>
+      </div>
+    </li>
+    <li>
+      <p class="when">2023 to 2024</p>
+      <div>
+        <h3>University College London</h3>
+        <p class="role">MSc Knowledge, Information and Data Science, Distinction</p>
+        <p>Dissertation on privacy-preserving technologies for GNN-based recommender systems.</p>
+      </div>
+    </li>
+    <li>
+      <p class="when">2017 to 2018</p>
+      <div>
+        <h3>Syracuse University</h3>
+        <p class="role">MSc Public Relations</p>
+      </div>
+    </li>
+    <li>
+      <p class="when">2013 to 2017</p>
+      <div>
+        <h3>Renmin University of China</h3>
+        <p class="role">BA Communication</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section class="wrap band" id="notes" aria-labelledby="notes-h">
+  <h2 id="notes-h">Latest notes</h2>
+  <ol class="note-list">
+    {% for post in site.posts limit:3 %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+      <div>
+        <a class="note-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+  <p class="more"><a href="{{ '/notes/' | relative_url }}">All notes in {{ site.blog_name }}</a></p>
+</section>
+
+<section class="wrap band" id="code" aria-labelledby="code-h">
+  <h2 id="code-h">Selected code</h2>
+  <ul class="repo-list">
+    <li>
+      <a href="https://github.com/cexufu/differential-privacy-gnn">differential-privacy-gnn</a>
+      <p>How much utility and compute a recommender gives up when user-preference signals are perturbed for privacy. UCL MSc work.</p>
+    </li>
+    <li>
+      <a href="https://github.com/cexufu/tona-agent-studio">tona-agent-studio</a>
+      <p>A multi-agent harness with roles, skills, controlled tools and memory.</p>
+    </li>
+    <li>
+      <a href="https://github.com/cexufu/career-overview-ai">career-overview-ai</a>
+      <p>A multi-stage LLM tool that turns a resume and goals into structured career analysis.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="wrap band contact" id="contact" aria-labelledby="contact-h">
+  <h2 id="contact-h">Contact</h2>
+  <p>I'm glad to hear from researchers and practitioners working on interpretability, AI security or AI governance. Email is the best way to reach me: <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+</section>

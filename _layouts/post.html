@@ -1,0 +1,17 @@
+---
+layout: default
+body_class: page-post
+---
+<article class="wrap post">
+  <header class="post-head">
+    <p class="post-meta"><a href="{{ '/notes/' | relative_url }}">{{ site.blog_name }}</a> <span aria-hidden="true">/</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="post-dek">{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+  <footer class="post-foot">
+    <a href="{{ '/notes/' | relative_url }}">All notes</a>
+  </footer>
+</article>

@@ -1,2 +1,34 @@
-title: "Cexu Fu | AI Communication & Governance"
-description: "AI tools for communication intelligence, public-opinion analysis, career diagnosis, and platform governance."
+title: Cexu (Tony) Fu
+description: AI governance, grounded in mechanisms. Source- and code-level answers to real AI governance problems.
+url: https://cexufu.github.io
+baseurl: ""
+author: Cexu (Tony) Fu
+email: fucx9501@outlook.com
+github: cexufu
+linkedin: cexu_fu
+
+blog_name: Mechanistic Governance
+
+permalink: /notes/:year/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  path: notes/feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
+  - preview/

@@ -1,0 +1,22 @@
+---
+layout: default
+title: Notes
+description: Mechanistic Governance, notes on source- and code-level answers to real AI governance problems.
+body_class: page-notes
+---
+<section class="wrap notes-page">
+  <h1>{{ site.blog_name }}</h1>
+  <p class="lede">Source- and code-level answers to real AI governance problems. Each note keeps apart what a paper claims, what the evidence supports, and what is still a hypothesis.</p>
+  <ol class="note-list">
+    {% for post in site.posts %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+      <div>
+        <a class="note-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+  <p class="feed-link"><a href="{{ '/notes/feed.xml' | relative_url }}">Subscribe by RSS</a></p>
+</section>
